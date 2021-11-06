@@ -2,6 +2,9 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
+/**
+ * 컨트롤러의 유닛테스트를 위한 파일.
+ */
 describe('AppController', () => {
   let appController: AppController;
 
